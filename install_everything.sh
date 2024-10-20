@@ -39,7 +39,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -
 PATH="$PATH:$JUST_INSTALL_DIR"
 
 # install LLVM
-git clone --single-branch --depth 1 --branch llvmorg-17.0.6 https://github.com/llvm/llvm-project.git "$LLVM_DIR"
+git clone --single-branch --depth 1 --branch llvmorg-19.1.2 https://github.com/llvm/llvm-project.git "$LLVM_DIR"
 
 cp llvm-justfile "$LLVM_DIR/justfile"
 
